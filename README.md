@@ -2,7 +2,7 @@
 
 
 ## Pipleline
-<img scr='./pipeline.png', width="1024px">
+<img scr='pipeline.png', width="1024px">
 
 
 ## Requirement
@@ -19,6 +19,7 @@ For the model complexity, the number of model parameters, the size of model memo
 |Model size(MB)  |params(M)   |Flops(G) |memory(MB) |speed(FPS) |
 |:---------------|:-----------|:--------|:----------|:----------|
 |282.97          |43.687      |55.521   |6807       |17.489     |
+
 *Test on a single TITAN V*
 
 ### performance
@@ -32,7 +33,8 @@ For iris localization, the evaluation measures are dice index when filling the i
 |CASIA-Iris-Distance            |0.3991       |0.9662     |0.0062      |
 |CASIA-Iris-Complex-Off-angle   |0.3394       |0.9742     |0.0066      |
 |CASIA-Iris-Complex-Occlusion   |0.4574       |0.9648     |0.0088      |
-*Above are results of [model](https://pan.baidu.com/s/11zHhHryzhOhfJJ8NEPlv-g)password：x3zm*
+
+*Above are results of [model](https://pan.baidu.com/s/11zHhHryzhOhfJJ8NEPlv-g)* (password：x3zm)
 
 
 ## Getting Start
@@ -41,8 +43,9 @@ For iris localization, the evaluation measures are dice index when filling the i
 Please refer to [mydataset.md](datasets/readme.md) for details to prepare dataset.
 
 ### Testing submitted model
-1. Download [models](https://pan.baidu.com/s/11zHhHryzhOhfJJ8NEPlv-g)*password：x3zm* to './example'
+1. Download [models](https://pan.baidu.com/s/11zHhHryzhOhfJJ8NEPlv-g) to './example'  (password：x3zm)
 2. run `python ./example/model_performance.py --dataset xxx --ckpath .../example/checkpoints/`
+
 *--dataset   Support dataset in [CASIA-Iris-Africa, CASIA-distance, Occlusion, Off_angle, CASIA-Iris-Mobile-V1.0]*
 *--ckpath    The folder path, which saves the models to get iris_mask, inner_boundary and outer_boundary respectively*
 
