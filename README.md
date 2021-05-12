@@ -2,7 +2,7 @@
 
 
 ## Pipleline
-[pipeline](pipeline.png)
+![pipeline](pipeline.png)
 
 
 ## Requirement
