@@ -40,7 +40,7 @@ For iris localization, the evaluation measures are dice index when filling the i
 ## Getting Start
 
 ### Prepare dataset of NIR-ISL2021
-Please refer to [mydataset.md](datasets/readme.md) for details to prepare dataset.
+Please refer to [mydataset.md](datasets/mydataset.md) for details to prepare dataset.
 
 ### Testing submitted model
 1. Download [models](https://pan.baidu.com/s/11zHhHryzhOhfJJ8NEPlv-g) to './example'  (password：x3zm)  
