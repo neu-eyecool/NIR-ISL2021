@@ -6,14 +6,10 @@
 
 
 ## Requirement
-python 3
-
-pytorch
-
-torchvision
-
-albumentations
-
+python 3  
+pytorch  
+torchvision  
+albumentations  
 thop
 
 
@@ -47,12 +43,10 @@ For iris localization, the evaluation measures are dice index when filling the i
 Please refer to [mydataset.md](datasets/readme.md) for details to prepare dataset.
 
 ### Testing submitted model
-1. Download [models](https://pan.baidu.com/s/11zHhHryzhOhfJJ8NEPlv-g) to './example'  (password：x3zm)
-2. run `python ./example/model_performance.py --dataset xxx --ckpath .../example/checkpoints/`
-
-*--dataset   Support dataset in [CASIA-Iris-Africa, CASIA-distance, Occlusion, Off_angle, CASIA-Iris-Mobile-V1.0]*
-
-*--ckpath    The folder path, which saves the models to get iris_mask, inner_boundary and outer_boundary respectively*
+1. Download [models](https://pan.baidu.com/s/11zHhHryzhOhfJJ8NEPlv-g) to './example'  (password：x3zm)  
+2. run `python ./example/model_performance.py --dataset xxx --ckpath .../example/checkpoints/`  
+*--dataset   Support dataset in [CASIA-Iris-Africa, CASIA-distance, Occlusion, Off_angle, CASIA-Iris-Mobile-V1.0]*  
+*--ckpath    The folder path, which saves the models to get iris_mask, inner_boundary and outer_boundary respectively*  
 
 ### Training your model
 please refer to [train.py](./train.py) default training parameters.
