@@ -7,9 +7,13 @@
 
 ## Requirement
 python 3
+
 pytorch
+
 torchvision
+
 albumentations
+
 thop
 
 
