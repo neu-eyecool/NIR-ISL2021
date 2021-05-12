@@ -23,7 +23,7 @@ For the model complexity, the number of model parameters, the size of model memo
 *Test on a single TITAN V*
 
 ### performance
-For iris segmentation, the evaluation measures are type-I (E1) error rates (please refer to http://nice1.di.ubi.pt/evaluation.htm for more details), as used in the Noisy Iris Challenge Evaluation - Part I (NICE.I).
+For iris segmentation, the evaluation measures are type-I (E1) error rates (please refer to http://nice1.di.ubi.pt/evaluation.htm for more details), as used in the Noisy Iris Challenge Evaluation - Part I (NICE.I).  
 For iris localization, the evaluation measures are dice index when filling the iris boundaries into iris boundary masks, and Hausdorff distance between the predicted iris boundaries and the corresponding ground truth boundaries. (please refer to https://warwick.ac.uk/fac/sci/dcs/research/tia/glascontest/evaluation/ for more details). 
 
 |Dataset                        |E1(%)        |Dice       |Hausdorff   |
