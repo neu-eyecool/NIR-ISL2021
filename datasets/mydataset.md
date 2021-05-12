@@ -5,29 +5,29 @@
 2. Before train you own models, please insure your data folader structure as follow:
     CASIA-dataset
     |--train  
-        |--CASIA-Iris-Mobile-V1.0  
-            |--image  
-            |--SegmentationClass  
-            |--iris_edge  
-            |--iris_edge_mask  
-            |--pupil_edge  
-            |--pupil_edge_mask  
-        |--CASIA-Iris-Asia  
-            |--CASIA-distance  
-                |--image  
-                |--SegmentationClass  
-                |--iris_edge  
-                |--iris_edge_mask  
-                |--pupil_edge  
-                |--pupil_edge_mask  
-            |--CASIA-Iris-Complex  
-       |--CASIA-Iris-Africa  
+        |---CASIA-Iris-Mobile-V1.0  
+            |----image  
+            |----SegmentationClass  
+            |----iris_edge  
+            |----iris_edge_mask  
+            |----pupil_edge  
+            |----pupil_edge_mask  
+        |---CASIA-Iris-Asia  
+            |----CASIA-distance  
+                |-----image  
+                |-----SegmentationClass  
+                |-----iris_edge  
+                |-----iris_edge_mask  
+                |-----pupil_edge  
+                |-----pupil_edge_mask  
+            |----CASIA-Iris-Complex  
+       |---CASIA-Iris-Africa  
     |--test  
-       |--CASIA-Iris-Mobile-V1.0  
+       |---CASIA-Iris-Mobile-V1.0  
           |--image  
-       |--CASIA-Iris-Asia  
-            |--CASIA-distance  
-                |--image  
-            |--CASIA-Iris-Complex  
-       |--CASIA-Iris-Africa  
+       |---CASIA-Iris-Asia  
+            |----CASIA-distance  
+                |-----image  
+            |----CASIA-Iris-Complex  
+       |---CASIA-Iris-Africa  
 3. Set the path (*root*) of *CASIA-dataset* folder in the last step in *NIRISL.py*
