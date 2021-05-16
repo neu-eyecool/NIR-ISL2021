@@ -1,4 +1,4 @@
-# The 3rd solution in NIR Iris Challenge Evaluation in Non-cooperative Environments: Segmentation and Localization (NIR-ISL 2021)
+# Third Place in NIR Iris Challenge Evaluation in Non-cooperative Environments: Segmentation and Localization (NIR-ISL 2021)
 
 
 ## Pipleline
