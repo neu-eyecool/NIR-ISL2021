@@ -62,5 +62,5 @@ python ./test.py \
 
 
 ## Contributor
-Hao Zhang. EyeCool Research Center, College of Science, Northeastern University.
+EyeCool Research Center, College of Science, Northeastern University.
 
