@@ -34,7 +34,7 @@ For iris localization, the evaluation measures are dice index when filling the i
 |CASIA-Iris-Complex-Off-angle   |0.3394       |0.9742     |0.0066      |
 |CASIA-Iris-Complex-Occlusion   |0.4574       |0.9648     |0.0088      |
 
-*Above are results of [model](https://pan.baidu.com/s/11zHhHryzhOhfJJ8NEPlv-g)* (password：x3zm)
+*The table shows the performance of [model](https://pan.baidu.com/s/11zHhHryzhOhfJJ8NEPlv-g)* (password：x3zm)
 
 
 ## Getting Start
