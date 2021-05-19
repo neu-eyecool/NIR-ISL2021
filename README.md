@@ -14,7 +14,7 @@ thop
 
 
 ## Model Evaluation
-### complexity
+### Complexity
 For the model complexity, the number of model parameters, the size of model memory (measured in MB), the amount of floating point operations (measured in FLOPs w.r.t the input of 640×480 pixels), and the average running speed (w.r.t the input of 640×480 pixels and GPU/CPU computing devices) are evaluated.
 |Model size(MB)  |params(M)   |Flops(G) |memory(MB) |speed(FPS) |
 |:---------------|:-----------|:--------|:----------|:----------|
@@ -22,7 +22,7 @@ For the model complexity, the number of model parameters, the size of model memo
 
 *Test on a single TITAN V*
 
-### performance
+### Performance
 For iris segmentation, the evaluation measures are type-I (E1) error rates (please refer to http://nice1.di.ubi.pt/evaluation.htm for more details), as used in the Noisy Iris Challenge Evaluation - Part I (NICE.I).  
 For iris localization, the evaluation measures are dice index when filling the iris boundaries into iris boundary masks, and Hausdorff distance between the predicted iris boundaries and the corresponding ground truth boundaries. (please refer to https://warwick.ac.uk/fac/sci/dcs/research/tia/glascontest/evaluation/ for more details). 
 
@@ -63,4 +63,3 @@ python ./test.py \
 
 ## Contributor
 EyeCool, Applied Mathematics, College of Sciences, Northeastern University, Shenyang, Liaoning, P. R. China.
-
