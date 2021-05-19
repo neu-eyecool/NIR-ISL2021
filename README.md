@@ -62,5 +62,5 @@ python ./test.py \
 
 
 ## Contributor
-EyeCool, College of Science, Northeastern University.
+EyeCool, Department of Mathematics, College of Sciences, Northeastern University, Shenyang, Liaoning, P. R. China.
 
