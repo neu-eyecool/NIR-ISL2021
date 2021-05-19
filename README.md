@@ -62,7 +62,7 @@ python ./test.py \
 
 
 ## Contributor
-EyeCool, Applied Mathematics, College of Sciences, Northeastern University, 
+EyeCool Research Group, Applied Mathematics, College of Sciences, Northeastern University, 
 
 Shenyang, Liaoning, P. R. China.
 
